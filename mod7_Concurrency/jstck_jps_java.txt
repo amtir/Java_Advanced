@@ -1,0 +1,117 @@
+
+
+[root@squid ~]# 
+[root@squid ~]# jps
+12482 Jps
+11779 Deadlock
+12036 Deadlock
+11669 Deadlock
+12218 Deadlock
+12157 Deadlock
+7982 org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar
+[root@squid ~]# 
+[root@squid ~]# 
+[root@squid ~]# jstack 11779
+2018-05-19 19:22:28
+Full thread dump OpenJDK 64-Bit Server VM (25.161-b14 mixed mode):
+
+"Attach Listener" #11 daemon prio=9 os_prio=0 tid=0x00007fc060000b70 nid=0x30eb waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Thread-1" #10 prio=5 os_prio=0 tid=0x00007fc0ac1a3400 nid=0x2e17 waiting for monitor entry [0x00007fc09c1f0000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at mod7.deadlock.Deadlock$Task2.run(Deadlock.java:57)
+	- waiting to lock <0x000000076eb61188> (a java.lang.Object)
+	- locked <0x000000076eb61198> (a java.lang.Object)
+	at java.lang.Thread.run(Thread.java:748)
+
+"Thread-0" #9 prio=5 os_prio=0 tid=0x00007fc0ac1a5260 nid=0x2e16 waiting for monitor entry [0x00007fc09c2f1000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at mod7.deadlock.Deadlock$Task1.run(Deadlock.java:39)
+	- waiting to lock <0x000000076eb61198> (a java.lang.Object)
+	- locked <0x000000076eb61188> (a java.lang.Object)
+	at java.lang.Thread.run(Thread.java:748)
+
+"Service Thread" #8 daemon prio=9 os_prio=0 tid=0x00007fc0ac0ce8e0 nid=0x2e14 runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C1 CompilerThread2" #7 daemon prio=9 os_prio=0 tid=0x00007fc0ac0c9da0 nid=0x2e13 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread1" #6 daemon prio=9 os_prio=0 tid=0x00007fc0ac01b1c0 nid=0x2e12 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread0" #5 daemon prio=9 os_prio=0 tid=0x00007fc0ac0bb9b0 nid=0x2e11 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Signal Dispatcher" #4 daemon prio=9 os_prio=0 tid=0x00007fc0ac0ba020 nid=0x2e10 runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Finalizer" #3 daemon prio=8 os_prio=0 tid=0x00007fc0ac0904a0 nid=0x2e0f in Object.wait() [0x00007fc09c9f8000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x000000076eb08ec0> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+	- locked <0x000000076eb08ec0> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:164)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:209)
+
+"Reference Handler" #2 daemon prio=10 os_prio=0 tid=0x00007fc0ac08c290 nid=0x2e0e in Object.wait() [0x00007fc09caf9000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x000000076eb06b68> (a java.lang.ref.Reference$Lock)
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	- locked <0x000000076eb06b68> (a java.lang.ref.Reference$Lock)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+"main" #1 prio=5 os_prio=0 tid=0x00007fc0ac009640 nid=0x2e08 in Object.wait() [0x00007fc0b62fa000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x000000076eee4b48> (a java.lang.Thread)
+	at java.lang.Thread.join(Thread.java:1252)
+	- locked <0x000000076eee4b48> (a java.lang.Thread)
+	at java.lang.Thread.join(Thread.java:1326)
+	at mod7.deadlock.Deadlock.main(Deadlock.java:20)
+
+"VM Thread" os_prio=0 tid=0x00007fc0ac082de0 nid=0x2e0d runnable 
+
+"GC task thread#0 (ParallelGC)" os_prio=0 tid=0x00007fc0ac01e080 nid=0x2e09 runnable 
+
+"GC task thread#1 (ParallelGC)" os_prio=0 tid=0x00007fc0ac01f610 nid=0x2e0a runnable 
+
+"GC task thread#2 (ParallelGC)" os_prio=0 tid=0x00007fc0ac020ba0 nid=0x2e0b runnable 
+
+"GC task thread#3 (ParallelGC)" os_prio=0 tid=0x00007fc0ac022130 nid=0x2e0c runnable 
+
+"VM Periodic Task Thread" os_prio=0 tid=0x00007fc0ac0d0660 nid=0x2e15 waiting on condition 
+
+JNI global references: 17
+
+
+Found one Java-level deadlock:
+=============================
+"Thread-1":
+  waiting to lock monitor 0x00007fc04c0022b8 (object 0x000000076eb61188, a java.lang.Object),
+  which is held by "Thread-0"
+"Thread-0":
+  waiting to lock monitor 0x00007fc0740062c8 (object 0x000000076eb61198, a java.lang.Object),
+  which is held by "Thread-1"
+
+Java stack information for the threads listed above:
+===================================================
+"Thread-1":
+	at mod7.deadlock.Deadlock$Task2.run(Deadlock.java:57)
+	- waiting to lock <0x000000076eb61188> (a java.lang.Object)
+	- locked <0x000000076eb61198> (a java.lang.Object)
+	at java.lang.Thread.run(Thread.java:748)
+"Thread-0":
+	at mod7.deadlock.Deadlock$Task1.run(Deadlock.java:39)
+	- waiting to lock <0x000000076eb61198> (a java.lang.Object)
+	- locked <0x000000076eb61188> (a java.lang.Object)
+	at java.lang.Thread.run(Thread.java:748)
+
+Found 1 deadlock.
+
+[root@squid ~]# 
+

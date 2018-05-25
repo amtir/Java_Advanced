@@ -1,0 +1,650 @@
+2018-05-21 12:02:31 main       INFO  mod9.ni.QueryNetworkInterface:27 - *** Network Interface ***
+2018-05-21 12:02:31 main       INFO  mod9.ni.QueryNetworkInterface:28 - tun0
+2018-05-21 12:02:31 main       INFO  mod9.ni.QueryNetworkInterface:33 - InetAddress --> 10.143.112.82
+2018-05-21 12:02:31 main       INFO  mod9.ni.QueryNetworkInterface:27 - *** Network Interface ***
+2018-05-21 12:02:31 main       INFO  mod9.ni.QueryNetworkInterface:28 - virbr0
+2018-05-21 12:02:31 main       INFO  mod9.ni.QueryNetworkInterface:33 - InetAddress --> 192.168.122.1
+2018-05-21 12:02:31 main       INFO  mod9.ni.QueryNetworkInterface:27 - *** Network Interface ***
+2018-05-21 12:02:31 main       INFO  mod9.ni.QueryNetworkInterface:28 - wlp3s0
+2018-05-21 12:02:31 main       INFO  mod9.ni.QueryNetworkInterface:33 - InetAddress --> 192.168.1.2
+2018-05-21 12:02:31 main       INFO  mod9.ni.QueryNetworkInterface:27 - *** Network Interface ***
+2018-05-21 12:02:31 main       INFO  mod9.ni.QueryNetworkInterface:28 - lo
+2018-05-21 12:02:31 main       INFO  mod9.ni.QueryNetworkInterface:33 - InetAddress --> 127.0.0.1
+
+2018-05-21 15:23:08 main       DEBUG tcp.socket.Server:34 - Waiting for connection ...
+2018-05-21 15:23:36 main       DEBUG tcp.socket.Server:36 - Connected to Socket[addr=/127.0.0.1,port=60858,localport=5556]
+2018-05-21 15:23:36 main       DEBUG tcp.socket.Client:37 - Connected to host = localhost on port 5556
+2018-05-21 15:23:36 main       DEBUG tcp.socket.Client:41 - Enter text to sent to server : 
+2018-05-21 15:23:59 main       DEBUG tcp.socket.Server:40 - *** Echoing client --->  Hello Server. How are you doing?
+2018-05-21 15:23:59 main       DEBUG tcp.socket.Client:45 - *** Feedback from the server : Acknowledged.
+2018-05-21 15:23:59 main       DEBUG tcp.socket.Client:46 - Exiting client... 
+2018-05-21 16:01:57 main       DEBUG tcp.socket.Server:35 - Waiting for connection ...
+2018-05-21 16:02:05 main       DEBUG tcp.socket.Server:37 - Connected to Socket[addr=/127.0.0.1,port=60986,localport=5556]
+2018-05-21 16:02:05 main       DEBUG tcp.socket.Client:37 - Connected to host = localhost on port 5556
+2018-05-21 16:02:05 main       DEBUG tcp.socket.Client:42 - Enter text to sent to server : 
+2018-05-21 16:02:10 main       DEBUG tcp.socket.Server:42 - *** Echoing client --->  message1
+2018-05-21 16:02:10 main       DEBUG tcp.socket.Client:46 - *** Feedback from the server : Acknowledged.
+2018-05-21 16:02:10 main       DEBUG tcp.socket.Client:42 - Enter text to sent to server : 
+2018-05-21 16:02:29 main       DEBUG tcp.socket.Server:42 - *** Echoing client --->  message2
+2018-05-21 16:02:29 main       DEBUG tcp.socket.Client:46 - *** Feedback from the server : Acknowledged.
+2018-05-21 16:02:29 main       DEBUG tcp.socket.Client:48 - Exiting client... 
+
+
+2018-05-21 16:06:50 main       DEBUG tcp.socket.Server:35 - Waiting for connection ...
+2018-05-21 16:07:00 main       DEBUG tcp.socket.Server:37 - Connected to Socket[addr=/127.0.0.1,port=32770,localport=5556]
+2018-05-21 16:07:00 main       DEBUG tcp.socket.Client:37 - Connected to host = localhost on port 5556
+2018-05-21 16:07:00 main       DEBUG tcp.socket.Client:42 - Enter text to sent to server : 
+2018-05-21 16:07:14 main       DEBUG tcp.socket.Server:44 - *** Echoing client --->  message1
+2018-05-21 16:07:14 main       DEBUG tcp.socket.Client:46 - *** Feedback from the server : Acknowledged.
+2018-05-21 16:07:14 main       DEBUG tcp.socket.Client:42 - Enter text to sent to server : 
+2018-05-21 16:07:36 main       DEBUG tcp.socket.Server:44 - *** Echoing client --->  message2
+2018-05-21 16:07:36 main       DEBUG tcp.socket.Client:46 - *** Feedback from the server : Acknowledged.
+2018-05-21 16:07:36 main       DEBUG tcp.socket.Client:48 - Exiting client... 
+2018-05-21 16:07:36 main       DEBUG tcp.socket.Server:35 - Waiting for connection ...
+2018-05-21 16:07:57 main       DEBUG tcp.socket.Server:37 - Connected to Socket[addr=/127.0.0.1,port=32774,localport=5556]
+2018-05-21 16:07:57 main       DEBUG tcp.socket.Client:37 - Connected to host = localhost on port 5556
+2018-05-21 16:07:57 main       DEBUG tcp.socket.Client:42 - Enter text to sent to server : 
+2018-05-21 16:08:05 main       DEBUG tcp.socket.Server:44 - *** Echoing client --->  message3
+2018-05-21 16:08:05 main       DEBUG tcp.socket.Client:46 - *** Feedback from the server : Acknowledged.
+2018-05-21 16:08:05 main       DEBUG tcp.socket.Client:42 - Enter text to sent to server : 
+2018-05-21 16:08:28 main       DEBUG tcp.socket.Server:44 - *** Echoing client --->  message4
+2018-05-21 16:08:28 main       DEBUG tcp.socket.Client:46 - *** Feedback from the server : Acknowledged.
+2018-05-21 16:08:28 main       DEBUG tcp.socket.Client:48 - Exiting client... 
+2018-05-21 16:08:28 main       DEBUG tcp.socket.Server:35 - Waiting for connection ...
+2018-05-21 17:20:28 main       DEBUG tcp.socket.Server:35 - Waiting for connection ...
+2018-05-21 17:20:41 main       DEBUG tcp.socket.Server:37 - Connected to Socket[addr=/127.0.0.1,port=32900,localport=5556]
+2018-05-21 17:20:41 main       DEBUG tcp.socket.Server:35 - Waiting for connection ...
+2018-05-21 17:20:41 main       DEBUG tcp.socket.Client:37 - Connected to host = localhost on port 5556
+2018-05-21 17:20:41 main       DEBUG tcp.socket.Client:42 - Enter text to sent to server : 
+2018-05-21 17:20:46 main       DEBUG tcp.socket.Server:37 - Connected to Socket[addr=/127.0.0.1,port=32902,localport=5556]
+2018-05-21 17:20:46 main       DEBUG tcp.socket.Server:35 - Waiting for connection ...
+2018-05-21 17:20:46 main       DEBUG tcp.socket.Client:37 - Connected to host = localhost on port 5556
+2018-05-21 17:20:46 main       DEBUG tcp.socket.Client:42 - Enter text to sent to server : 
+2018-05-21 17:20:57 Thread-0   DEBUG tcp.socket.RequestProcessThread:73 - *** Echoing client --->  Client1 message1
+2018-05-21 17:20:57 main       DEBUG tcp.socket.Client:46 - *** Feedback from the server : Acknowledged.
+2018-05-21 17:20:57 main       DEBUG tcp.socket.Client:42 - Enter text to sent to server : 
+2018-05-21 17:21:17 Thread-1   DEBUG tcp.socket.RequestProcessThread:73 - *** Echoing client --->  Client2 message1
+2018-05-21 17:21:17 main       DEBUG tcp.socket.Client:46 - *** Feedback from the server : Acknowledged.
+2018-05-21 17:21:17 main       DEBUG tcp.socket.Client:42 - Enter text to sent to server : 
+2018-05-21 17:21:45 Thread-0   DEBUG tcp.socket.RequestProcessThread:73 - *** Echoing client --->  Client1 message2
+2018-05-21 17:21:45 main       DEBUG tcp.socket.Client:46 - *** Feedback from the server : Acknowledged.
+2018-05-21 17:21:45 main       DEBUG tcp.socket.Client:48 - Exiting client... 
+2018-05-21 17:22:25 Thread-1   DEBUG tcp.socket.RequestProcessThread:73 - *** Echoing client --->  Client2 message2
+2018-05-21 17:22:25 main       DEBUG tcp.socket.Client:46 - *** Feedback from the server : Acknowledged.
+2018-05-21 17:22:25 main       DEBUG tcp.socket.Client:48 - Exiting client... 
+2018-05-21 17:39:56 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 17:40:00 main       DEBUG tcp.socket.Server:34 - Welcome to the multiple socket client Server 
+2018-05-21 17:40:00 main       DEBUG tcp.socket.Server:35 - Connected to Socket[addr=/127.0.0.1,port=32964,localport=5556]
+2018-05-21 17:40:00 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 17:40:00 main       DEBUG tcp.socket.Client:37 - Connected to host = localhost on port 5556
+2018-05-21 17:40:00 main       DEBUG tcp.socket.Client:42 - Enter text to sent to server : 
+2018-05-21 17:40:03 main       DEBUG tcp.socket.Server:34 - Welcome to the multiple socket client Server 
+2018-05-21 17:40:03 main       DEBUG tcp.socket.Server:35 - Connected to Socket[addr=/127.0.0.1,port=32970,localport=5556]
+2018-05-21 17:40:03 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 17:40:03 main       DEBUG tcp.socket.Client:37 - Connected to host = localhost on port 5556
+2018-05-21 17:40:03 main       DEBUG tcp.socket.Client:42 - Enter text to sent to server : 
+2018-05-21 17:40:28 Thread-1   DEBUG tcp.socket.RequestProcessThread:66 - *** Echoing client --->  Client2 message1
+2018-05-21 17:40:28 main       DEBUG tcp.socket.Client:45 - *** Feedback from the server : Acknowledged.
+2018-05-21 17:40:28 main       DEBUG tcp.socket.Client:42 - Enter text to sent to server : 
+2018-05-21 17:40:42 Thread-1   DEBUG tcp.socket.RequestProcessThread:66 - *** Echoing client --->  null
+2018-05-21 17:41:00 main       DEBUG tcp.socket.Client:45 - *** Feedback from the server : null
+2018-05-21 17:42:26 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 17:42:32 main       DEBUG tcp.socket.Server:34 - Connected to Socket[addr=/127.0.0.1,port=32972,localport=5556]
+2018-05-21 17:42:32 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 17:42:32 Thread-0   DEBUG tcp.socket.RequestProcessThread:61 - Welcome to the Java multiple client Server
+2018-05-21 17:42:32 main       DEBUG tcp.socket.Client:37 - Connected to host = localhost on port 5556
+2018-05-21 17:42:32 main       DEBUG tcp.socket.Client:42 - Enter text to sent to server : 
+2018-05-21 17:42:33 main       DEBUG tcp.socket.Server:34 - Connected to Socket[addr=/127.0.0.1,port=32974,localport=5556]
+2018-05-21 17:42:33 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 17:42:33 Thread-1   DEBUG tcp.socket.RequestProcessThread:61 - Welcome to the Java multiple client Server
+2018-05-21 17:42:33 main       DEBUG tcp.socket.Client:37 - Connected to host = localhost on port 5556
+2018-05-21 17:42:33 main       DEBUG tcp.socket.Client:42 - Enter text to sent to server : 
+2018-05-21 17:42:57 main       DEBUG tcp.socket.Client:45 - *** Feedback from the server : Welcome to the Java multiple client Server
+2018-05-21 17:42:57 Thread-0   DEBUG tcp.socket.RequestProcessThread:67 - *** Echoing client --->  Client1 Message1
+2018-05-21 17:42:57 main       DEBUG tcp.socket.Client:42 - Enter text to sent to server : 
+2018-05-21 17:43:30 Thread-0   DEBUG tcp.socket.RequestProcessThread:67 - *** Echoing client --->  null
+2018-05-21 17:43:35 main       DEBUG tcp.socket.Client:45 - *** Feedback from the server : Welcome to the Java multiple client Server
+2018-05-21 17:43:35 main       DEBUG tcp.socket.Client:42 - Enter text to sent to server : 
+2018-05-21 17:44:57 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 17:45:03 main       DEBUG tcp.socket.Server:34 - Connected to Socket[addr=/127.0.0.1,port=32978,localport=5556]
+2018-05-21 17:45:03 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 17:45:03 Thread-0   DEBUG tcp.socket.RequestProcessThread:61 - Welcome to the Java multiple client Server
+2018-05-21 17:45:03 main       DEBUG tcp.socket.Client:37 - Connected to host = localhost on port 5556
+2018-05-21 17:45:03 main       DEBUG tcp.socket.Client:42 - Enter text to sent to server : 
+2018-05-21 17:49:25 main       INFO  tcp.socket.Server:39 - Exception error: 
+java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at tcp.socket.Server.main(Server.java:30)
+2018-05-21 17:49:40 main       INFO  tcp.socket.Server:39 - Exception error: 
+java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at tcp.socket.Server.main(Server.java:30)
+2018-05-21 17:49:50 main       DEBUG tcp.socket.Client:45 - *** Feedback from the server : Welcome to the Java multiple client Server
+2018-05-21 17:49:57 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 17:50:00 main       DEBUG tcp.socket.Server:34 - Connected to Socket[addr=/127.0.0.1,port=32982,localport=5556]
+2018-05-21 17:50:00 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 17:50:00 Thread-0   DEBUG tcp.socket.RequestProcessThread:61 - Welcome to the Java multiple client Server
+2018-05-21 17:50:00 main       DEBUG tcp.socket.Client:37 - Connected to host = localhost on port 5556
+2018-05-21 17:50:00 main       DEBUG tcp.socket.Client:46 - *** Echoing Server --->  Welcome to the Java multiple client Server
+2018-05-21 17:50:00 main       DEBUG tcp.socket.Client:50 - Enter text to sent to server : 
+2018-05-21 17:50:10 main       DEBUG tcp.socket.Server:34 - Connected to Socket[addr=/127.0.0.1,port=32988,localport=5556]
+2018-05-21 17:50:10 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 17:50:10 Thread-1   DEBUG tcp.socket.RequestProcessThread:61 - Welcome to the Java multiple client Server
+2018-05-21 17:50:10 main       DEBUG tcp.socket.Client:37 - Connected to host = localhost on port 5556
+2018-05-21 17:50:10 main       DEBUG tcp.socket.Client:46 - *** Echoing Server --->  Welcome to the Java multiple client Server
+2018-05-21 17:50:10 main       DEBUG tcp.socket.Client:50 - Enter text to sent to server : 
+2018-05-21 17:50:28 Thread-0   DEBUG tcp.socket.RequestProcessThread:67 - *** Echoing client --->  Client1 Message1
+2018-05-21 17:50:57 Thread-1   DEBUG tcp.socket.RequestProcessThread:67 - *** Echoing client --->  Client2 Message1
+2018-05-21 17:52:20 main       DEBUG tcp.socket.Client:53 - *** Feedback from the server : null
+2018-05-21 17:52:20 main       DEBUG tcp.socket.Client:53 - *** Feedback from the server : null
+2018-05-21 17:52:20 main       DEBUG tcp.socket.Client:50 - Enter text to sent to server : 
+2018-05-21 17:52:20 main       DEBUG tcp.socket.Client:50 - Enter text to sent to server : 
+2018-05-21 17:52:20 main       DEBUG tcp.socket.Client:53 - *** Feedback from the server : null
+2018-05-21 17:52:20 main       DEBUG tcp.socket.Client:53 - *** Feedback from the server : null
+2018-05-21 17:52:20 main       DEBUG tcp.socket.Client:55 - Exiting client... 
+2018-05-21 17:52:20 main       DEBUG tcp.socket.Client:55 - Exiting client... 
+2018-05-21 17:54:01 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 17:54:07 main       DEBUG tcp.socket.Server:34 - Connected to Socket[addr=/127.0.0.1,port=33002,localport=5556]
+2018-05-21 17:54:07 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 17:54:07 Thread-0   DEBUG tcp.socket.RequestProcessThread:61 - Welcome to the Java multiple client Server
+2018-05-21 17:54:07 main       DEBUG tcp.socket.Client:37 - Connected to host = localhost on port 5556
+2018-05-21 17:54:07 main       DEBUG tcp.socket.Client:47 - *** Echoing Server --->  Welcome to the Java multiple client Server
+2018-05-21 17:54:07 main       DEBUG tcp.socket.Client:51 - Enter text to sent to server : 
+2018-05-21 17:54:25 main       DEBUG tcp.socket.Server:34 - Connected to Socket[addr=/127.0.0.1,port=33008,localport=5556]
+2018-05-21 17:54:25 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 17:54:25 Thread-1   DEBUG tcp.socket.RequestProcessThread:61 - Welcome to the Java multiple client Server
+2018-05-21 17:54:25 main       DEBUG tcp.socket.Client:37 - Connected to host = localhost on port 5556
+2018-05-21 17:54:25 main       DEBUG tcp.socket.Client:47 - *** Echoing Server --->  Welcome to the Java multiple client Server
+2018-05-21 17:54:25 main       DEBUG tcp.socket.Client:51 - Enter text to sent to server : 
+2018-05-21 17:54:31 Thread-1   DEBUG tcp.socket.RequestProcessThread:67 - *** Echoing client --->  Client2 Message1
+2018-05-21 17:58:51 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 17:58:53 main       DEBUG tcp.socket.Server:34 - Connected to Socket[addr=/127.0.0.1,port=33056,localport=5556]
+2018-05-21 17:58:53 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 17:58:53 Thread-0   DEBUG tcp.socket.RequestProcessThread:61 - Welcome to the Java multiple client Server
+2018-05-21 17:58:53 main       DEBUG tcp.socket.Client:37 - Connected to host = localhost on port 5556
+2018-05-21 17:58:53 main       DEBUG tcp.socket.Client:47 - *** Echoing Server --->  Welcome to the Java multiple client Server
+2018-05-21 17:58:53 main       DEBUG tcp.socket.Client:51 - Enter text to sent to server : 
+2018-05-21 17:58:56 main       DEBUG tcp.socket.Server:34 - Connected to Socket[addr=/127.0.0.1,port=33058,localport=5556]
+2018-05-21 17:58:56 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 17:58:56 main       DEBUG tcp.socket.Client:37 - Connected to host = localhost on port 5556
+2018-05-21 17:58:56 Thread-1   DEBUG tcp.socket.RequestProcessThread:61 - Welcome to the Java multiple client Server
+2018-05-21 17:58:56 main       DEBUG tcp.socket.Client:47 - *** Echoing Server --->  Welcome to the Java multiple client Server
+2018-05-21 17:58:56 main       DEBUG tcp.socket.Client:51 - Enter text to sent to server : 
+2018-05-21 17:59:05 Thread-1   DEBUG tcp.socket.RequestProcessThread:67 - *** Echoing client --->  Client2 Message1
+2018-05-21 17:59:05 main       DEBUG tcp.socket.Client:54 - *** Feedback from the server : Message received ...
+2018-05-21 17:59:05 main       DEBUG tcp.socket.Client:51 - Enter text to sent to server : 
+2018-05-21 18:00:40 Thread-0   DEBUG tcp.socket.RequestProcessThread:67 - *** Echoing client --->  Client1 Message1
+2018-05-21 18:00:40 main       DEBUG tcp.socket.Client:54 - *** Feedback from the server : Message received ...
+2018-05-21 18:00:40 main       DEBUG tcp.socket.Client:51 - Enter text to sent to server : 
+2018-05-21 18:00:53 Thread-0   DEBUG tcp.socket.RequestProcessThread:67 - *** Echoing client --->  Client1 Message2
+2018-05-21 18:00:53 main       DEBUG tcp.socket.Client:54 - *** Feedback from the server : Message received ...
+2018-05-21 18:00:53 main       DEBUG tcp.socket.Client:56 - Exiting client... 
+2018-05-21 18:01:17 Thread-1   DEBUG tcp.socket.RequestProcessThread:67 - *** Echoing client --->  Client2 Message2
+2018-05-21 18:01:17 main       DEBUG tcp.socket.Client:54 - *** Feedback from the server : Message received ...
+2018-05-21 18:01:17 main       DEBUG tcp.socket.Client:56 - Exiting client... 
+2018-05-21 18:01:45 main       DEBUG tcp.socket.Server:34 - Connected to Socket[addr=/127.0.0.1,port=33072,localport=5556]
+2018-05-21 18:01:45 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 18:01:45 Thread-2   DEBUG tcp.socket.RequestProcessThread:61 - Welcome to the Java multiple client Server
+2018-05-21 18:01:45 main       DEBUG tcp.socket.Client:37 - Connected to host = localhost on port 5556
+2018-05-21 18:01:45 main       DEBUG tcp.socket.Client:47 - *** Echoing Server --->  Welcome to the Java multiple client Server
+2018-05-21 18:01:45 main       DEBUG tcp.socket.Client:51 - Enter text to sent to server : 
+2018-05-21 18:03:03 main       DEBUG tcp.socket.Client:54 - *** Feedback from the server : null
+2018-05-21 18:04:00 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 18:04:04 main       DEBUG tcp.socket.Server:34 - Connected to Socket[addr=/127.0.0.1,port=33074,localport=5556]
+2018-05-21 18:04:04 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 18:04:04 main       DEBUG tcp.socket.Client:37 - Connected to host = localhost on port 5556
+2018-05-21 18:04:04 main       DEBUG tcp.socket.Client:45 - *** Echoing Server --->  Welcome to the Java multiple client Server
+2018-05-21 18:04:04 main       DEBUG tcp.socket.Client:49 - Enter text to sent to server : 
+2018-05-21 18:04:05 main       DEBUG tcp.socket.Server:34 - Connected to Socket[addr=/127.0.0.1,port=33076,localport=5556]
+2018-05-21 18:04:05 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 18:04:05 main       DEBUG tcp.socket.Client:37 - Connected to host = localhost on port 5556
+2018-05-21 18:04:05 main       DEBUG tcp.socket.Client:45 - *** Echoing Server --->  Welcome to the Java multiple client Server
+2018-05-21 18:04:05 main       DEBUG tcp.socket.Client:49 - Enter text to sent to server : 
+2018-05-21 18:04:16 Thread-0   DEBUG tcp.socket.RequestProcessThread:67 - *** Echoing client --->  Client1 Message1
+2018-05-21 18:04:16 main       DEBUG tcp.socket.Client:52 - *** Feedback from the server : Message received ...
+2018-05-21 18:04:16 main       DEBUG tcp.socket.Client:49 - Enter text to sent to server : 
+2018-05-21 18:04:41 Thread-1   DEBUG tcp.socket.RequestProcessThread:67 - *** Echoing client --->  Client2 Message1
+2018-05-21 18:04:41 main       DEBUG tcp.socket.Client:52 - *** Feedback from the server : Message received ...
+2018-05-21 18:04:41 main       DEBUG tcp.socket.Client:49 - Enter text to sent to server : 
+2018-05-21 18:04:49 Thread-1   DEBUG tcp.socket.RequestProcessThread:67 - *** Echoing client --->  Client2 Message2
+2018-05-21 18:04:49 main       DEBUG tcp.socket.Client:52 - *** Feedback from the server : Message received ...
+2018-05-21 18:04:49 main       DEBUG tcp.socket.Client:54 - Exiting client... 
+2018-05-21 18:05:35 Thread-0   DEBUG tcp.socket.RequestProcessThread:67 - *** Echoing client --->  Client1 Message2
+2018-05-21 18:05:35 main       DEBUG tcp.socket.Client:52 - *** Feedback from the server : Message received ...
+2018-05-21 18:05:35 main       DEBUG tcp.socket.Client:54 - Exiting client... 
+2018-05-21 18:09:10 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 18:09:14 main       DEBUG tcp.socket.Server:34 - Connected to Socket[addr=/127.0.0.1,port=33080,localport=5556]
+2018-05-21 18:09:14 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 18:09:14 main       DEBUG tcp.socket.Client:37 - Connected to host = localhost on port 5556
+2018-05-21 18:09:14 main       DEBUG tcp.socket.Client:45 - *** Echoing Server --->  Welcome to the Java multiple client Server
+2018-05-21 18:09:14 main       DEBUG tcp.socket.Client:49 - Enter text to sent to server : 
+2018-05-21 18:09:16 main       DEBUG tcp.socket.Server:34 - Connected to Socket[addr=/127.0.0.1,port=33082,localport=5556]
+2018-05-21 18:09:16 main       DEBUG tcp.socket.Server:32 - Waiting for connection ...
+2018-05-21 18:09:16 main       DEBUG tcp.socket.Client:37 - Connected to host = localhost on port 5556
+2018-05-21 18:09:16 main       DEBUG tcp.socket.Client:45 - *** Echoing Server --->  Welcome to the Java multiple client Server
+2018-05-21 18:09:16 main       DEBUG tcp.socket.Client:49 - Enter text to sent to server : 
+2018-05-21 18:09:23 Thread-1   DEBUG tcp.socket.RequestProcessThread:67 - *** Echoing client --->  Client2 message1
+2018-05-21 18:09:23 main       DEBUG tcp.socket.Client:52 - *** Feedback from the server : Message received ...
+2018-05-21 18:09:23 main       DEBUG tcp.socket.Client:49 - Enter text to sent to server : 
+2018-05-21 18:09:29 Thread-1   DEBUG tcp.socket.RequestProcessThread:67 - *** Echoing client --->  Client2 message2
+2018-05-21 18:09:29 main       DEBUG tcp.socket.Client:52 - *** Feedback from the server : Message received ...
+2018-05-21 18:09:29 main       DEBUG tcp.socket.Client:54 - Exiting client... 
+2018-05-21 18:09:29 Thread-1   DEBUG tcp.socket.RequestProcessThread:67 - *** Echoing client --->  Exiting client: Socket[addr=localhost/127.0.0.1,port=5556,localport=33082]
+2018-05-21 18:10:27 Thread-0   DEBUG tcp.socket.RequestProcessThread:67 - *** Echoing client --->  Client1 message1
+2018-05-21 18:10:27 main       DEBUG tcp.socket.Client:52 - *** Feedback from the server : Message received ...
+2018-05-21 18:10:27 main       DEBUG tcp.socket.Client:49 - Enter text to sent to server : 
+2018-05-21 18:10:35 Thread-0   DEBUG tcp.socket.RequestProcessThread:67 - *** Echoing client --->  Client1 message2
+2018-05-21 18:10:35 main       DEBUG tcp.socket.Client:52 - *** Feedback from the server : Message received ...
+2018-05-21 18:10:35 main       DEBUG tcp.socket.Client:54 - Exiting client... 
+2018-05-21 18:10:35 Thread-0   DEBUG tcp.socket.RequestProcessThread:67 - *** Echoing client --->  Exiting client: Socket[addr=localhost/127.0.0.1,port=5556,localport=33080]
+2018-05-21 18:15:35 main       INFO  mod9.ni.QueryNetworkInterface:24 - *** Network Interface ***
+2018-05-21 18:15:35 main       INFO  mod9.ni.QueryNetworkInterface:25 - tun0
+2018-05-21 18:15:35 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 10.143.112.82
+2018-05-21 18:15:35 main       INFO  mod9.ni.QueryNetworkInterface:24 - *** Network Interface ***
+2018-05-21 18:15:35 main       INFO  mod9.ni.QueryNetworkInterface:25 - virbr0
+2018-05-21 18:15:35 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 192.168.122.1
+2018-05-21 18:15:35 main       INFO  mod9.ni.QueryNetworkInterface:24 - *** Network Interface ***
+2018-05-21 18:15:35 main       INFO  mod9.ni.QueryNetworkInterface:25 - wlp3s0
+2018-05-21 18:15:35 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 192.168.1.2
+2018-05-21 18:15:35 main       INFO  mod9.ni.QueryNetworkInterface:24 - *** Network Interface ***
+2018-05-21 18:15:35 main       INFO  mod9.ni.QueryNetworkInterface:25 - lo
+2018-05-21 18:15:35 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 127.0.0.1
+2018-05-21 19:07:59 main       INFO  mod9.ni.QueryNetworkInterface:24 - *** Network Interface ***
+2018-05-21 19:07:59 main       INFO  mod9.ni.QueryNetworkInterface:25 - tun0
+2018-05-21 19:07:59 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 10.143.112.82
+2018-05-21 19:07:59 main       INFO  mod9.ni.QueryNetworkInterface:24 - *** Network Interface ***
+2018-05-21 19:07:59 main       INFO  mod9.ni.QueryNetworkInterface:25 - virbr0
+2018-05-21 19:07:59 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 192.168.122.1
+2018-05-21 19:07:59 main       INFO  mod9.ni.QueryNetworkInterface:24 - *** Network Interface ***
+2018-05-21 19:07:59 main       INFO  mod9.ni.QueryNetworkInterface:25 - wlp3s0
+2018-05-21 19:07:59 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 192.168.1.2
+2018-05-21 19:07:59 main       INFO  mod9.ni.QueryNetworkInterface:24 - *** Network Interface ***
+2018-05-21 19:07:59 main       INFO  mod9.ni.QueryNetworkInterface:25 - lo
+2018-05-21 19:07:59 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 127.0.0.1
+2018-05-21 19:12:59 main       INFO  mod9.ni.QueryNetworkInterface:24 - *** Network Interface ***
+2018-05-21 19:12:59 main       INFO  mod9.ni.QueryNetworkInterface:25 - tun0
+2018-05-21 19:12:59 main       INFO  mod9.ni.QueryNetworkInterface:26 - Does this interface supports multicast? : true
+2018-05-21 19:12:59 main       INFO  mod9.ni.QueryNetworkInterface:31 - InetAddress --> 10.143.112.82
+2018-05-21 19:12:59 main       INFO  mod9.ni.QueryNetworkInterface:24 - *** Network Interface ***
+2018-05-21 19:12:59 main       INFO  mod9.ni.QueryNetworkInterface:25 - virbr0
+2018-05-21 19:12:59 main       INFO  mod9.ni.QueryNetworkInterface:26 - Does this interface supports multicast? : true
+2018-05-21 19:12:59 main       INFO  mod9.ni.QueryNetworkInterface:31 - InetAddress --> 192.168.122.1
+2018-05-21 19:12:59 main       INFO  mod9.ni.QueryNetworkInterface:24 - *** Network Interface ***
+2018-05-21 19:12:59 main       INFO  mod9.ni.QueryNetworkInterface:25 - wlp3s0
+2018-05-21 19:12:59 main       INFO  mod9.ni.QueryNetworkInterface:26 - Does this interface supports multicast? : true
+2018-05-21 19:12:59 main       INFO  mod9.ni.QueryNetworkInterface:31 - InetAddress --> 192.168.1.2
+2018-05-21 19:12:59 main       INFO  mod9.ni.QueryNetworkInterface:24 - *** Network Interface ***
+2018-05-21 19:12:59 main       INFO  mod9.ni.QueryNetworkInterface:25 - lo
+2018-05-21 19:12:59 main       INFO  mod9.ni.QueryNetworkInterface:26 - Does this interface supports multicast? : false
+2018-05-21 19:12:59 main       INFO  mod9.ni.QueryNetworkInterface:31 - InetAddress --> 127.0.0.1
+2018-05-21 19:14:15 main       INFO  mod9.ni.QueryNetworkInterface:24 - *** Network Interface ***
+2018-05-21 19:14:15 main       INFO  mod9.ni.QueryNetworkInterface:25 - tun0
+2018-05-21 19:14:15 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 10.143.112.82
+2018-05-21 19:14:15 main       INFO  mod9.ni.QueryNetworkInterface:33 - Does this interface supports multicast? : true
+2018-05-21 19:14:15 main       INFO  mod9.ni.QueryNetworkInterface:24 - *** Network Interface ***
+2018-05-21 19:14:15 main       INFO  mod9.ni.QueryNetworkInterface:25 - virbr0
+2018-05-21 19:14:15 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 192.168.122.1
+2018-05-21 19:14:15 main       INFO  mod9.ni.QueryNetworkInterface:33 - Does this interface supports multicast? : true
+2018-05-21 19:14:15 main       INFO  mod9.ni.QueryNetworkInterface:24 - *** Network Interface ***
+2018-05-21 19:14:15 main       INFO  mod9.ni.QueryNetworkInterface:25 - wlp3s0
+2018-05-21 19:14:15 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 192.168.1.2
+2018-05-21 19:14:15 main       INFO  mod9.ni.QueryNetworkInterface:33 - Does this interface supports multicast? : true
+2018-05-21 19:14:15 main       INFO  mod9.ni.QueryNetworkInterface:24 - *** Network Interface ***
+2018-05-21 19:14:15 main       INFO  mod9.ni.QueryNetworkInterface:25 - lo
+2018-05-21 19:14:15 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 127.0.0.1
+2018-05-21 19:14:15 main       INFO  mod9.ni.QueryNetworkInterface:33 - Does this interface supports multicast? : false
+2018-05-21 19:14:39 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***
+2018-05-21 19:14:39 main       INFO  mod9.ni.QueryNetworkInterface:25 - tun0
+2018-05-21 19:14:39 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 10.143.112.82
+2018-05-21 19:14:39 main       INFO  mod9.ni.QueryNetworkInterface:33 - Does this interface supports multicast? : true
+2018-05-21 19:14:39 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***
+2018-05-21 19:14:39 main       INFO  mod9.ni.QueryNetworkInterface:25 - virbr0
+2018-05-21 19:14:39 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 192.168.122.1
+2018-05-21 19:14:39 main       INFO  mod9.ni.QueryNetworkInterface:33 - Does this interface supports multicast? : true
+2018-05-21 19:14:39 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***
+2018-05-21 19:14:39 main       INFO  mod9.ni.QueryNetworkInterface:25 - wlp3s0
+2018-05-21 19:14:39 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 192.168.1.2
+2018-05-21 19:14:39 main       INFO  mod9.ni.QueryNetworkInterface:33 - Does this interface supports multicast? : true
+2018-05-21 19:14:39 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***
+2018-05-21 19:14:39 main       INFO  mod9.ni.QueryNetworkInterface:25 - lo
+2018-05-21 19:14:39 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 127.0.0.1
+2018-05-21 19:14:39 main       INFO  mod9.ni.QueryNetworkInterface:33 - Does this interface supports multicast? : false
+2018-05-21 19:15:00 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:15:00 main       INFO  mod9.ni.QueryNetworkInterface:25 - tun0
+2018-05-21 19:15:00 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 10.143.112.82
+2018-05-21 19:15:00 main       INFO  mod9.ni.QueryNetworkInterface:33 - Does this interface supports multicast? : true
+2018-05-21 19:15:00 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:15:00 main       INFO  mod9.ni.QueryNetworkInterface:25 - virbr0
+2018-05-21 19:15:00 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 192.168.122.1
+2018-05-21 19:15:00 main       INFO  mod9.ni.QueryNetworkInterface:33 - Does this interface supports multicast? : true
+2018-05-21 19:15:00 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:15:00 main       INFO  mod9.ni.QueryNetworkInterface:25 - wlp3s0
+2018-05-21 19:15:00 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 192.168.1.2
+2018-05-21 19:15:00 main       INFO  mod9.ni.QueryNetworkInterface:33 - Does this interface supports multicast? : true
+2018-05-21 19:15:00 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:15:00 main       INFO  mod9.ni.QueryNetworkInterface:25 - lo
+2018-05-21 19:15:00 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 127.0.0.1
+2018-05-21 19:15:00 main       INFO  mod9.ni.QueryNetworkInterface:33 - Does this interface supports multicast? : false
+2018-05-21 19:16:20 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:16:20 main       INFO  mod9.ni.QueryNetworkInterface:25 - tun0
+2018-05-21 19:16:20 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 10.143.112.82
+2018-05-21 19:16:20 main       INFO  mod9.ni.QueryNetworkInterface:33 - 
+2018-05-21 19:16:20 main       INFO  mod9.ni.QueryNetworkInterface:34 - Does this interface supports multicast? : true
+2018-05-21 19:16:20 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:16:20 main       INFO  mod9.ni.QueryNetworkInterface:25 - virbr0
+2018-05-21 19:16:20 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 192.168.122.1
+2018-05-21 19:16:20 main       INFO  mod9.ni.QueryNetworkInterface:33 - [B@5f184fc6
+2018-05-21 19:16:20 main       INFO  mod9.ni.QueryNetworkInterface:34 - Does this interface supports multicast? : true
+2018-05-21 19:16:20 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:16:20 main       INFO  mod9.ni.QueryNetworkInterface:25 - wlp3s0
+2018-05-21 19:16:20 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 192.168.1.2
+2018-05-21 19:16:20 main       INFO  mod9.ni.QueryNetworkInterface:33 - [B@3feba861
+2018-05-21 19:16:20 main       INFO  mod9.ni.QueryNetworkInterface:34 - Does this interface supports multicast? : true
+2018-05-21 19:16:20 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:16:20 main       INFO  mod9.ni.QueryNetworkInterface:25 - lo
+2018-05-21 19:16:20 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 127.0.0.1
+2018-05-21 19:16:20 main       INFO  mod9.ni.QueryNetworkInterface:33 - 
+2018-05-21 19:16:20 main       INFO  mod9.ni.QueryNetworkInterface:34 - Does this interface supports multicast? : false
+2018-05-21 19:17:05 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:17:05 main       INFO  mod9.ni.QueryNetworkInterface:25 - tun0
+2018-05-21 19:17:05 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 10.143.112.82
+2018-05-21 19:18:52 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:18:52 main       INFO  mod9.ni.QueryNetworkInterface:25 - tun0
+2018-05-21 19:18:52 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 10.143.112.82
+2018-05-21 19:18:52 main       INFO  mod9.ni.QueryNetworkInterface:33 - tun0
+2018-05-21 19:18:52 main       INFO  mod9.ni.QueryNetworkInterface:34 - Does this interface supports multicast? : true
+2018-05-21 19:18:52 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:18:52 main       INFO  mod9.ni.QueryNetworkInterface:25 - virbr0
+2018-05-21 19:18:52 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 192.168.122.1
+2018-05-21 19:18:52 main       INFO  mod9.ni.QueryNetworkInterface:33 - virbr0
+2018-05-21 19:18:52 main       INFO  mod9.ni.QueryNetworkInterface:34 - Does this interface supports multicast? : true
+2018-05-21 19:18:52 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:18:52 main       INFO  mod9.ni.QueryNetworkInterface:25 - wlp3s0
+2018-05-21 19:18:52 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 192.168.1.2
+2018-05-21 19:18:52 main       INFO  mod9.ni.QueryNetworkInterface:33 - wlp3s0
+2018-05-21 19:18:52 main       INFO  mod9.ni.QueryNetworkInterface:34 - Does this interface supports multicast? : true
+2018-05-21 19:18:52 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:18:52 main       INFO  mod9.ni.QueryNetworkInterface:25 - lo
+2018-05-21 19:18:52 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 127.0.0.1
+2018-05-21 19:18:52 main       INFO  mod9.ni.QueryNetworkInterface:33 - lo
+2018-05-21 19:18:52 main       INFO  mod9.ni.QueryNetworkInterface:34 - Does this interface supports multicast? : false
+2018-05-21 19:19:53 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:19:53 main       INFO  mod9.ni.QueryNetworkInterface:25 - tun0
+2018-05-21 19:19:53 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 10.143.112.82
+2018-05-21 19:19:53 main       INFO  mod9.ni.QueryNetworkInterface:33 - Is up? : true
+2018-05-21 19:19:53 main       INFO  mod9.ni.QueryNetworkInterface:34 - Does this interface supports multicast? : true
+2018-05-21 19:19:53 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:19:53 main       INFO  mod9.ni.QueryNetworkInterface:25 - virbr0
+2018-05-21 19:19:53 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 192.168.122.1
+2018-05-21 19:19:53 main       INFO  mod9.ni.QueryNetworkInterface:33 - Is up? : false
+2018-05-21 19:19:53 main       INFO  mod9.ni.QueryNetworkInterface:34 - Does this interface supports multicast? : true
+2018-05-21 19:19:53 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:19:53 main       INFO  mod9.ni.QueryNetworkInterface:25 - wlp3s0
+2018-05-21 19:19:53 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 192.168.1.2
+2018-05-21 19:19:53 main       INFO  mod9.ni.QueryNetworkInterface:33 - Is up? : true
+2018-05-21 19:19:53 main       INFO  mod9.ni.QueryNetworkInterface:34 - Does this interface supports multicast? : true
+2018-05-21 19:19:53 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:19:53 main       INFO  mod9.ni.QueryNetworkInterface:25 - lo
+2018-05-21 19:19:53 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 127.0.0.1
+2018-05-21 19:19:53 main       INFO  mod9.ni.QueryNetworkInterface:33 - Is up? : true
+2018-05-21 19:19:53 main       INFO  mod9.ni.QueryNetworkInterface:34 - Does this interface supports multicast? : false
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:25 - tun0
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 10.143.112.82
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:33 - Is up? : true
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:34 - isPointToPoint? : true
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:36 - Does this interface supports multicast? : true
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:25 - virbr0
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 192.168.122.1
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:33 - Is up? : false
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:34 - isPointToPoint? : false
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:36 - Does this interface supports multicast? : true
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:25 - wlp3s0
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 192.168.1.2
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:33 - Is up? : true
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:34 - isPointToPoint? : false
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:36 - Does this interface supports multicast? : true
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:25 - lo
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 127.0.0.1
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:33 - Is up? : true
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:34 - isPointToPoint? : false
+2018-05-21 19:21:08 main       INFO  mod9.ni.QueryNetworkInterface:36 - Does this interface supports multicast? : false
+2018-05-21 19:25:02 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:25:02 main       INFO  mod9.ni.QueryNetworkInterface:25 - tun0
+2018-05-21 19:25:02 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 10.143.112.82
+2018-05-21 19:25:02 main       INFO  mod9.ni.QueryNetworkInterface:33 - Is up? : true
+2018-05-21 19:25:02 main       INFO  mod9.ni.QueryNetworkInterface:34 - isPointToPoint? : true
+2018-05-21 19:25:02 main       INFO  mod9.ni.QueryNetworkInterface:36 - Does this interface supports multicast? : true
+2018-05-21 19:26:05 main       INFO  mod9.ni.QueryNetworkInterface:24 - ###*** Network Interface ***###
+2018-05-21 19:26:05 main       INFO  mod9.ni.QueryNetworkInterface:25 - tun0
+2018-05-21 19:26:05 main       INFO  mod9.ni.QueryNetworkInterface:30 - InetAddress --> 10.143.112.82
+2018-05-21 19:26:05 main       INFO  mod9.ni.QueryNetworkInterface:33 - Is up? : true
+2018-05-21 19:26:05 main       INFO  mod9.ni.QueryNetworkInterface:34 - isPointToPoint? : true
+2018-05-21 19:26:05 main       INFO  mod9.ni.QueryNetworkInterface:36 - Does this interface supports multicast? : true
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:22 - ###*** Network Interface ***###
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:23 - tun0
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:28 - InetAddress --> 10.143.112.82
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:31 - Is up? : true
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:32 - isPointToPoint? : true
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:34 - Does this interface supports multicast? : true
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:22 - ###*** Network Interface ***###
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:23 - virbr0
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:28 - InetAddress --> 192.168.122.1
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:31 - Is up? : false
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:32 - isPointToPoint? : false
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:34 - Does this interface supports multicast? : true
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:22 - ###*** Network Interface ***###
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:23 - wlp3s0
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:28 - InetAddress --> 192.168.1.2
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:31 - Is up? : true
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:32 - isPointToPoint? : false
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:34 - Does this interface supports multicast? : true
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:22 - ###*** Network Interface ***###
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:23 - lo
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:28 - InetAddress --> 127.0.0.1
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:31 - Is up? : true
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:32 - isPointToPoint? : false
+2018-05-21 19:27:35 main       INFO  mod9.ni.QueryNetworkInterface:34 - Does this interface supports multicast? : false
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:22 - ###*** Network Interface ***###
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:23 - tun0
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:28 - InetAddress --> 10.143.112.82
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:31 - Is up? : true
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:32 - isPointToPoint? : true
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:34 - Does this interface supports multicast? : true
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:22 - ###*** Network Interface ***###
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:23 - virbr0
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:28 - InetAddress --> 192.168.122.1
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:31 - Is up? : false
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:32 - isPointToPoint? : false
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:34 - Does this interface supports multicast? : true
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:22 - ###*** Network Interface ***###
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:23 - wlp3s0
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:28 - InetAddress --> 192.168.1.2
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:31 - Is up? : true
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:32 - isPointToPoint? : false
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:34 - Does this interface supports multicast? : true
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:22 - ###*** Network Interface ***###
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:23 - lo
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:28 - InetAddress --> 127.0.0.1
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:31 - Is up? : true
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:32 - isPointToPoint? : false
+2018-05-21 19:28:41 main       INFO  mod9.ni.QueryNetworkInterface:34 - Does this interface supports multicast? : false
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:27 - Display name: tun0
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:29 - Name: tun0
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:35 - Name: /10.143.112.82
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:45 -  Interface Address
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:47 -    Address: /10.143.112.82
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:49 -    Broadcast: null
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:50 -   Prefix length: 32
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:64 - Up? : true
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:66 - Loopback? : false
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:68 - PointToPoint? : true
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:70 - Supports multicast? : true
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:72 - Virtual? : false
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:74 - Hardware address: null
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:76 - MTU: 1500
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:27 - Display name: virbr0
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:29 - Name: virbr0
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:35 - Name: /192.168.122.1
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:45 -  Interface Address
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:47 -    Address: /192.168.122.1
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:49 -    Broadcast: /192.168.122.255
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:50 -   Prefix length: 24
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:64 - Up? : false
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:66 - Loopback? : false
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:68 - PointToPoint? : false
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:70 - Supports multicast? : true
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:72 - Virtual? : false
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:74 - Hardware address: [82, 84, 0, -65, -120, 47]
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:76 - MTU: 1500
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:27 - Display name: wlp3s0
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:29 - Name: wlp3s0
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:35 - Name: /192.168.1.2
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:45 -  Interface Address
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:47 -    Address: /192.168.1.2
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:49 -    Broadcast: /192.168.1.255
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:50 -   Prefix length: 24
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:64 - Up? : true
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:66 - Loopback? : false
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:68 - PointToPoint? : false
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:70 - Supports multicast? : true
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:72 - Virtual? : false
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:74 - Hardware address: [96, 103, 32, 62, 25, 20]
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:76 - MTU: 1500
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:27 - Display name: lo
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:29 - Name: lo
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:35 - Name: /127.0.0.1
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:45 -  Interface Address
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:47 -    Address: /127.0.0.1
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:49 -    Broadcast: null
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:50 -   Prefix length: 8
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:64 - Up? : true
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:66 - Loopback? : true
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:68 - PointToPoint? : false
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:70 - Supports multicast? : false
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:72 - Virtual? : false
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:74 - Hardware address: null
+2018-05-21 19:48:20 main       INFO  mod9.ni.QueryNetworkInterface:76 - MTU: 65536
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:27 - Display name: tun0
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:29 - Name: tun0
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:35 - Name: /10.143.112.82
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:45 -  Interface Address
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:47 -    Address: /10.143.112.82
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:49 -    Broadcast: null
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:50 -   Prefix length: 32
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:64 - Up? : true
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:66 - Loopback? : false
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:68 - PointToPoint? : true
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:70 - Supports multicast? : true
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:72 - Virtual? : false
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:74 - Hardware address: null
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:76 - MTU: 1500
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:27 - Display name: virbr0
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:29 - Name: virbr0
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:35 - Name: /192.168.122.1
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:45 -  Interface Address
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:47 -    Address: /192.168.122.1
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:49 -    Broadcast: /192.168.122.255
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:50 -   Prefix length: 24
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:64 - Up? : false
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:66 - Loopback? : false
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:68 - PointToPoint? : false
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:70 - Supports multicast? : true
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:72 - Virtual? : false
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:74 - Hardware address: [82, 84, 0, -65, -120, 47]
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:76 - MTU: 1500
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:27 - Display name: wlp3s0
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:29 - Name: wlp3s0
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:35 - Name: /192.168.1.2
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:45 -  Interface Address
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:47 -    Address: /192.168.1.2
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:49 -    Broadcast: /192.168.1.255
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:50 -   Prefix length: 24
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:64 - Up? : true
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:66 - Loopback? : false
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:68 - PointToPoint? : false
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:70 - Supports multicast? : true
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:72 - Virtual? : false
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:74 - Hardware address: [96, 103, 32, 62, 25, 20]
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:76 - MTU: 1500
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:27 - Display name: lo
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:29 - Name: lo
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:35 - Name: /127.0.0.1
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:45 -  Interface Address
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:47 -    Address: /127.0.0.1
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:49 -    Broadcast: null
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:50 -   Prefix length: 8
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:64 - Up? : true
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:66 - Loopback? : true
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:68 - PointToPoint? : false
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:70 - Supports multicast? : false
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:72 - Virtual? : false
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:74 - Hardware address: null
+2018-05-21 19:50:18 main       INFO  mod9.ni.QueryNetworkInterface:76 - MTU: 65536
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:25 - Display name: tun0
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:26 - Name: tun0
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:31 - Name: /10.143.112.82
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:40 -  Interface Address
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:41 -    Address: /10.143.112.82
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:42 -    Broadcast: null
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:43 -   Prefix length: 32
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:54 - Up? : true
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:55 - Loopback? : false
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:56 - PointToPoint? : true
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:57 - Supports multicast? : true
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:58 - Virtual? : false
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:59 - Hardware address: null
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:60 - MTU: 1500
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:25 - Display name: virbr0
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:26 - Name: virbr0
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:31 - Name: /192.168.122.1
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:40 -  Interface Address
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:41 -    Address: /192.168.122.1
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:42 -    Broadcast: /192.168.122.255
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:43 -   Prefix length: 24
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:54 - Up? : false
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:55 - Loopback? : false
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:56 - PointToPoint? : false
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:57 - Supports multicast? : true
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:58 - Virtual? : false
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:59 - Hardware address: [82, 84, 0, -65, -120, 47]
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:60 - MTU: 1500
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:25 - Display name: wlp3s0
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:26 - Name: wlp3s0
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:31 - Name: /192.168.1.2
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:40 -  Interface Address
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:41 -    Address: /192.168.1.2
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:42 -    Broadcast: /192.168.1.255
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:43 -   Prefix length: 24
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:54 - Up? : true
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:55 - Loopback? : false
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:56 - PointToPoint? : false
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:57 - Supports multicast? : true
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:58 - Virtual? : false
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:59 - Hardware address: [96, 103, 32, 62, 25, 20]
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:60 - MTU: 1500
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:25 - Display name: lo
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:26 - Name: lo
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:31 - Name: /127.0.0.1
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:40 -  Interface Address
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:41 -    Address: /127.0.0.1
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:42 -    Broadcast: null
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:43 -   Prefix length: 8
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:54 - Up? : true
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:55 - Loopback? : true
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:56 - PointToPoint? : false
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:57 - Supports multicast? : false
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:58 - Virtual? : false
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:59 - Hardware address: null
+2018-05-21 19:51:59 main       INFO  mod9.ni.QueryNetworkInterface:60 - MTU: 65536

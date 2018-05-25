@@ -1,0 +1,2 @@
+java -cp bin;resources;lib/log4j-1.2.17.jar module9.udp.multicast.Server
+java -cp bin;resources;lib/log4j-1.2.17.jar module9.udp.multicast.Client 5

@@ -1,0 +1,11 @@
+Objectives
+
+Module 8: Working with Databases
+
+CRUD operations (DDL Data Definition Language, DML Data Manipulation Language, DCL Data Control Language, TCL Transactiopn Control Language)
+
+Parameterized stored procedures
+
+Transaction management (ACID (Atomicity, Consistency, Isolation, Durability) )
+
+Batch Processing

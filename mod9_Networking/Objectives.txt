@@ -1,0 +1,15 @@
+
+
+Module 9 : Networking Programming
+
+java.net.* (package)
+
+Network Interfaces  (NIC Network Interface Card)
+OSI Model (Application layer : HTTP, FTP, TELNET, ..., Transport lazer: TCP/IP, UDP ... )
+TCP UDP Sockets
+Clients-Server Application
+Unicast through Diatagram Sockets
+Multicast through Multicast Sockets
+URL Processing, Content Reading
+
+

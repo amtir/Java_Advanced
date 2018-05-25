@@ -1,0 +1,269 @@
+2018-05-24 21:11:10 main       ERROR module8.TestConnectionMySQL:26 - Error reading resources/dbcon.properties
+java.io.FileNotFoundException: resources/dbcon.properties (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at module8.TestConnectionMySQL.main(TestConnectionMySQL.java:23)
+2018-05-24 21:12:33 main       DEBUG module8.TestConnectionMySQL:30 - Connecting to database.
+2018-05-24 21:12:33 main       ERROR module8.TestConnectionMySQL:35 - Connection failed.
+java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost/test
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at module8.TestConnectionMySQL.main(TestConnectionMySQL.java:32)
+2018-05-24 21:12:33 main       DEBUG module8.TestConnectionMySQL:37 - Connection closed.
+2018-05-24 21:17:54 main       DEBUG module8.TestConnectionMySQL:30 - Connecting to database.
+2018-05-24 21:17:55 main       DEBUG module8.TestConnectionMySQL:33 - Connecting succeeded.
+2018-05-24 21:17:55 main       DEBUG module8.TestConnectionMySQL:37 - Connection closed.
+2018-05-24 22:04:41 main       DEBUG module8.TestConnectionMySQL:30 - Connecting to database.
+2018-05-24 22:04:41 main       DEBUG module8.TestConnectionMySQL:33 - Connecting succeeded.
+2018-05-24 22:04:41 main       DEBUG module8.TestConnectionMySQL:37 - Connection closed.
+2018-05-24 22:04:56 main       DEBUG module8.ddl.CreateTableDemo:30 - Connecting to database.
+2018-05-24 22:04:56 main       DEBUG module8.ddl.CreateTableDemo:33 - Connecting succeeded.
+2018-05-24 22:04:56 main       DEBUG module8.ddl.CreateTableDemo:38 - Table created.
+2018-05-24 22:04:56 main       DEBUG module8.ddl.CreateTableDemo:42 - Connection closed.
+2018-05-24 22:54:15 main       DEBUG module8.query.ReadingTableDemo:31 - Connecting to database.
+2018-05-24 22:54:16 main       DEBUG module8.query.ReadingTableDemo:34 - Connecting succeeded.
+2018-05-24 22:54:16 main       DEBUG module8.query.ReadingTableDemo:44 - 1 Nokia 1000
+2018-05-24 22:54:16 main       DEBUG module8.query.ReadingTableDemo:44 - 2 Samsung 2000
+2018-05-24 22:54:16 main       DEBUG module8.query.ReadingTableDemo:46 - Fetched 2 rows.
+2018-05-24 22:54:16 main       DEBUG module8.query.ReadingTableDemo:53 - Connection closed.
+2018-05-24 23:01:27 main       DEBUG module8.query.ReadingTableDemo:31 - Connecting to database.
+2018-05-24 23:01:27 main       DEBUG module8.query.ReadingTableDemo:34 - Connecting succeeded.
+2018-05-24 23:01:27 main       DEBUG module8.query.ReadingTableDemo:44 - Nokia 1000 1000
+2018-05-24 23:01:27 main       DEBUG module8.query.ReadingTableDemo:44 - Samsung 2000 2000
+2018-05-24 23:01:27 main       DEBUG module8.query.ReadingTableDemo:46 - Fetched 2 rows.
+2018-05-24 23:01:27 main       DEBUG module8.query.ReadingTableDemo:53 - Connection closed.
+2018-05-24 23:01:53 main       DEBUG module8.query.ReadingTableDemo:31 - Connecting to database.
+2018-05-24 23:01:53 main       DEBUG module8.query.ReadingTableDemo:34 - Connecting succeeded.
+2018-05-24 23:01:53 main       DEBUG module8.query.ReadingTableDemo:44 - Nokia 1000 1000
+2018-05-24 23:01:53 main       DEBUG module8.query.ReadingTableDemo:44 - Samsung 2000 2000
+2018-05-24 23:01:53 main       DEBUG module8.query.ReadingTableDemo:46 - Fetched 2 rows.
+2018-05-24 23:01:53 main       DEBUG module8.query.ReadingTableDemo:53 - Connection closed.
+2018-05-24 23:02:03 main       DEBUG module8.query.ReadingTableDemo:31 - Connecting to database.
+2018-05-24 23:02:04 main       DEBUG module8.query.ReadingTableDemo:34 - Connecting succeeded.
+2018-05-24 23:02:04 main       DEBUG module8.query.ReadingTableDemo:44 - Nokia 1000 Red
+2018-05-24 23:02:04 main       DEBUG module8.query.ReadingTableDemo:44 - Samsung 2000 Green
+2018-05-24 23:02:04 main       DEBUG module8.query.ReadingTableDemo:46 - Fetched 2 rows.
+2018-05-24 23:02:04 main       DEBUG module8.query.ReadingTableDemo:53 - Connection closed.
+2018-05-24 23:32:00 main       DEBUG module8.query.ReadingTableDemo:31 - Connecting to database.
+2018-05-24 23:32:01 main       DEBUG module8.query.ReadingTableDemo:34 - Connecting succeeded.
+2018-05-24 23:32:01 main       DEBUG module8.query.ReadingTableDemo:44 - Nokia 1000 Red
+2018-05-24 23:32:01 main       DEBUG module8.query.ReadingTableDemo:44 - Samsung 2000 Green
+2018-05-24 23:32:01 main       DEBUG module8.query.ReadingTableDemo:46 - Fetched 2 rows.
+2018-05-24 23:32:01 main       DEBUG module8.query.ReadingTableDemo:53 - Connection closed.
+2018-05-24 23:32:07 main       DEBUG module8.dml.InsertTableDemo:33 - Connecting to database.
+2018-05-24 23:32:09 main       DEBUG module8.dml.InsertTableDemo:36 - Connecting succeeded.
+2018-05-24 23:32:09 main       DEBUG module8.dml.InsertTableDemo:54 - Connection closed.
+2018-05-24 23:32:56 main       DEBUG module8.dml.InsertTableDemo:33 - Connecting to database.
+2018-05-24 23:32:58 main       DEBUG module8.dml.InsertTableDemo:36 - Connecting succeeded.
+2018-05-24 23:32:58 main       ERROR module8.dml.InsertTableDemo:52 - Query failed.
+java.sql.SQLException: Column count doesn't match value count at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1078)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4190)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4122)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2570)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2731)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2818)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2157)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2460)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2377)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2361)
+	at module8.dml.InsertTableDemo.main(InsertTableDemo.java:45)
+2018-05-24 23:32:58 main       DEBUG module8.dml.InsertTableDemo:54 - Connection closed.
+2018-05-24 23:33:22 main       DEBUG module8.dml.InsertTableDemo:33 - Connecting to database.
+2018-05-24 23:33:24 main       DEBUG module8.dml.InsertTableDemo:36 - Connecting succeeded.
+2018-05-24 23:33:24 main       DEBUG module8.dml.InsertTableDemo:54 - Connection closed.
+2018-05-24 23:33:32 main       DEBUG module8.query.ReadingTableDemo:31 - Connecting to database.
+2018-05-24 23:33:33 main       DEBUG module8.query.ReadingTableDemo:34 - Connecting succeeded.
+2018-05-24 23:33:33 main       DEBUG module8.query.ReadingTableDemo:44 - Nokia 1000 Red
+2018-05-24 23:33:33 main       DEBUG module8.query.ReadingTableDemo:44 - Samsung 2000 Green
+2018-05-24 23:33:33 main       DEBUG module8.query.ReadingTableDemo:46 - Fetched 2 rows.
+2018-05-24 23:33:33 main       DEBUG module8.query.ReadingTableDemo:53 - Connection closed.
+2018-05-24 23:33:41 main       DEBUG module8.dml.InsertTableDemo:33 - Connecting to database.
+2018-05-24 23:33:43 main       DEBUG module8.dml.InsertTableDemo:36 - Connecting succeeded.
+2018-05-24 23:33:43 main       DEBUG module8.dml.InsertTableDemo:54 - Connection closed.
+2018-05-24 23:34:11 main       DEBUG module8.dml.InsertTableDemo:33 - Connecting to database.
+2018-05-24 23:34:13 main       DEBUG module8.dml.InsertTableDemo:36 - Connecting succeeded.
+2018-05-24 23:34:13 main       DEBUG module8.dml.InsertTableDemo:54 - Connection closed.
+2018-05-24 23:35:02 main       DEBUG module8.dml.InsertTableDemo:33 - Connecting to database.
+2018-05-24 23:35:04 main       DEBUG module8.dml.InsertTableDemo:36 - Connecting succeeded.
+2018-05-24 23:35:04 main       ERROR module8.dml.InsertTableDemo:52 - Query failed.
+java.sql.SQLException: Column count doesn't match value count at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1078)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4190)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4122)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2570)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2731)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2818)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2157)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2460)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2377)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2361)
+	at module8.dml.InsertTableDemo.main(InsertTableDemo.java:45)
+2018-05-24 23:35:04 main       DEBUG module8.dml.InsertTableDemo:54 - Connection closed.
+2018-05-24 23:35:53 main       DEBUG module8.dml.InsertTableDemo:33 - Connecting to database.
+2018-05-24 23:35:55 main       DEBUG module8.dml.InsertTableDemo:36 - Connecting succeeded.
+2018-05-24 23:35:55 main       DEBUG module8.dml.InsertTableDemo:47 - Inserted  1 row(s).
+2018-05-24 23:35:55 main       DEBUG module8.dml.InsertTableDemo:54 - Connection closed.
+2018-05-24 23:37:53 main       DEBUG module8.dml.InsertTableDemo:33 - Connecting to database.
+2018-05-24 23:37:54 main       DEBUG module8.dml.InsertTableDemo:36 - Connecting succeeded.
+2018-05-24 23:37:54 main       DEBUG module8.dml.InsertTableDemo:47 - Inserted  1 row(s).
+2018-05-24 23:37:54 main       DEBUG module8.dml.InsertTableDemo:54 - Connection closed.
+2018-05-24 23:38:42 main       DEBUG module8.dml.InsertTableDemo:33 - Connecting to database.
+2018-05-24 23:38:50 main       DEBUG module8.dml.InsertTableDemo:36 - Connecting succeeded.
+2018-05-24 23:38:50 main       DEBUG module8.dml.InsertTableDemo:47 - Inserted  1 row(s).
+2018-05-24 23:38:50 main       DEBUG module8.dml.InsertTableDemo:54 - Connection closed.
+2018-05-25 02:43:00 main       DEBUG module8.proc.OutParamDemo:34 - Connecting to database.
+2018-05-25 02:43:01 main       DEBUG module8.proc.OutParamDemo:37 - Connecting succeeded.
+2018-05-25 02:43:01 main       ERROR module8.proc.OutParamDemo:56 - Query failed.
+java.sql.SQLException: Parameter number 1 is not an OUT parameter
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1078)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:920)
+	at com.mysql.jdbc.CallableStatement.checkIsOutputParam(CallableStatement.java:694)
+	at com.mysql.jdbc.CallableStatement.registerOutParameter(CallableStatement.java:2015)
+	at module8.proc.OutParamDemo.main(OutParamDemo.java:42)
+2018-05-25 02:43:01 main       DEBUG module8.proc.OutParamDemo:58 - Connection closed.
+2018-05-25 02:43:29 main       DEBUG module8.proc.OutParamDemo:34 - Connecting to database.
+2018-05-25 02:43:29 main       DEBUG module8.proc.OutParamDemo:37 - Connecting succeeded.
+2018-05-25 02:43:29 main       ERROR module8.proc.OutParamDemo:56 - Query failed.
+java.sql.SQLException: Parameter number 1 is not an OUT parameter
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1078)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:920)
+	at com.mysql.jdbc.CallableStatement.checkIsOutputParam(CallableStatement.java:694)
+	at com.mysql.jdbc.CallableStatement.registerOutParameter(CallableStatement.java:2015)
+	at module8.proc.OutParamDemo.main(OutParamDemo.java:42)
+2018-05-25 02:43:29 main       DEBUG module8.proc.OutParamDemo:58 - Connection closed.
+2018-05-25 02:44:02 main       DEBUG module8.proc.OutParamDemo:34 - Connecting to database.
+2018-05-25 02:44:02 main       DEBUG module8.proc.OutParamDemo:37 - Connecting succeeded.
+2018-05-25 02:44:02 main       ERROR module8.proc.OutParamDemo:56 - Query failed.
+java.sql.SQLException: Parameter number 2 is not an OUT parameter
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1078)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:920)
+	at com.mysql.jdbc.CallableStatement.checkIsOutputParam(CallableStatement.java:694)
+	at com.mysql.jdbc.CallableStatement.registerOutParameter(CallableStatement.java:2015)
+	at module8.proc.OutParamDemo.main(OutParamDemo.java:42)
+2018-05-25 02:44:02 main       DEBUG module8.proc.OutParamDemo:58 - Connection closed.
+2018-05-25 02:53:32 main       DEBUG module8.proc.OutParamDemo:34 - Connecting to database.
+2018-05-25 02:53:32 main       DEBUG module8.proc.OutParamDemo:37 - Connecting succeeded.
+2018-05-25 02:53:32 main       DEBUG module8.proc.OutParamDemo:51 - Name  Alice .
+2018-05-25 02:53:32 main       DEBUG module8.proc.OutParamDemo:58 - Connection closed.
+2018-05-25 02:54:05 main       DEBUG module8.proc.OutParamDemo:34 - Connecting to database.
+2018-05-25 02:54:05 main       DEBUG module8.proc.OutParamDemo:37 - Connecting succeeded.
+2018-05-25 02:54:05 main       DEBUG module8.proc.OutParamDemo:51 - Name  Alice .
+2018-05-25 02:54:05 main       DEBUG module8.proc.OutParamDemo:58 - Connection closed.
+2018-05-25 02:54:40 main       DEBUG module8.proc.OutParamDemo:34 - Connecting to database.
+2018-05-25 02:54:41 main       DEBUG module8.proc.OutParamDemo:37 - Connecting succeeded.
+2018-05-25 02:54:41 main       DEBUG module8.proc.OutParamDemo:50 - Name  Bob .
+2018-05-25 02:54:41 main       DEBUG module8.proc.OutParamDemo:57 - Connection closed.
+2018-05-25 02:55:12 main       DEBUG module8.proc.OutParamDemo:34 - Connecting to database.
+2018-05-25 02:55:13 main       DEBUG module8.proc.OutParamDemo:37 - Connecting succeeded.
+2018-05-25 02:55:13 main       DEBUG module8.proc.OutParamDemo:50 - Name  Bob .
+2018-05-25 02:55:13 main       DEBUG module8.proc.OutParamDemo:57 - Connection closed.
+2018-05-25 02:55:57 main       DEBUG module8.proc.OutParamDemo:34 - Connecting to database.
+2018-05-25 02:55:57 main       DEBUG module8.proc.OutParamDemo:37 - Connecting succeeded.
+2018-05-25 02:55:57 main       DEBUG module8.proc.OutParamDemo:50 - ID : 4 --> Name  Bob .
+2018-05-25 02:55:57 main       DEBUG module8.proc.OutParamDemo:57 - Connection closed.
+2018-05-25 02:56:07 main       DEBUG module8.proc.OutParamDemo:34 - Connecting to database.
+2018-05-25 02:56:07 main       DEBUG module8.proc.OutParamDemo:37 - Connecting succeeded.
+2018-05-25 02:56:07 main       DEBUG module8.proc.OutParamDemo:50 - ID : 1 --> Name  Tom .
+2018-05-25 02:56:07 main       DEBUG module8.proc.OutParamDemo:57 - Connection closed.
+2018-05-25 02:56:17 main       DEBUG module8.proc.OutParamDemo:34 - Connecting to database.
+2018-05-25 02:56:18 main       DEBUG module8.proc.OutParamDemo:37 - Connecting succeeded.
+2018-05-25 02:56:18 main       DEBUG module8.proc.OutParamDemo:50 - ID : 2 --> Name  John .
+2018-05-25 02:56:18 main       DEBUG module8.proc.OutParamDemo:57 - Connection closed.
+2018-05-25 03:08:23 main       DEBUG module8.query.ReadingTableDemo:32 - Connecting to database.
+2018-05-25 03:08:23 main       DEBUG module8.query.ReadingTableDemo:35 - Connecting succeeded.
+2018-05-25 03:08:23 main       DEBUG module8.query.ReadingTableDemo:45 - 3 Alice 90
+2018-05-25 03:08:23 main       DEBUG module8.query.ReadingTableDemo:47 - Fetched 1 rows.
+2018-05-25 03:08:23 main       DEBUG module8.query.ReadingTableDemo:54 - Connection closed.
+2018-05-25 03:13:06 main       DEBUG module8.query.ReadingTableDemo:32 - Connecting to database.
+2018-05-25 03:13:06 main       DEBUG module8.query.ReadingTableDemo:35 - Connecting succeeded.
+2018-05-25 03:13:06 main       DEBUG module8.query.ReadingTableDemo:45 - 3 Alice 90
+2018-05-25 03:13:06 main       DEBUG module8.query.ReadingTableDemo:45 - 5 Anna 96
+2018-05-25 03:13:06 main       DEBUG module8.query.ReadingTableDemo:45 - 6 Alex 77
+2018-05-25 03:13:06 main       DEBUG module8.query.ReadingTableDemo:45 - 7 Aaron 82
+2018-05-25 03:13:06 main       DEBUG module8.query.ReadingTableDemo:45 - 8 Amy 93
+2018-05-25 03:13:06 main       DEBUG module8.query.ReadingTableDemo:47 - Fetched 5 rows.
+2018-05-25 03:13:06 main       DEBUG module8.query.ReadingTableDemo:54 - Connection closed.
+2018-05-25 03:23:59 main       DEBUG module8.query.ReadingTableDemo:38 - Connecting to database.
+2018-05-25 03:24:00 main       DEBUG module8.query.ReadingTableDemo:41 - Connecting succeeded.
+2018-05-25 03:24:00 main       DEBUG module8.query.ReadingTableDemo:50 - 3 Alice 90
+2018-05-25 03:24:00 main       DEBUG module8.query.ReadingTableDemo:50 - 5 Anna 96
+2018-05-25 03:24:00 main       DEBUG module8.query.ReadingTableDemo:50 - 6 Alex 77
+2018-05-25 03:24:00 main       DEBUG module8.query.ReadingTableDemo:50 - 7 Aaron 82
+2018-05-25 03:24:00 main       DEBUG module8.query.ReadingTableDemo:50 - 8 Amy 93
+2018-05-25 03:24:00 main       DEBUG module8.query.ReadingTableDemo:52 - Fetched 5 rows.
+2018-05-25 03:24:00 main       DEBUG module8.query.ReadingTableDemo:58 - Connection closed.
+2018-05-25 03:25:05 main       DEBUG module8.query.ReadingTableDemo:38 - Connecting to database.
+2018-05-25 03:25:05 main       DEBUG module8.query.ReadingTableDemo:41 - Connecting succeeded.
+2018-05-25 03:25:05 main       DEBUG module8.query.ReadingTableDemo:50 - 3 Alice 90
+2018-05-25 03:25:05 main       DEBUG module8.query.ReadingTableDemo:50 - 5 Anna 96
+2018-05-25 03:25:05 main       DEBUG module8.query.ReadingTableDemo:50 - 6 Alex 77
+2018-05-25 03:25:05 main       DEBUG module8.query.ReadingTableDemo:50 - 7 Aaron 82
+2018-05-25 03:25:05 main       DEBUG module8.query.ReadingTableDemo:50 - 8 Amy 93
+2018-05-25 03:25:05 main       DEBUG module8.query.ReadingTableDemo:52 - Fetched 5 rows.
+2018-05-25 03:25:05 main       DEBUG module8.query.ReadingTableDemo:58 - Connection closed.
+2018-05-25 04:01:02 main       DEBUG module8.batch.FixRecords:34 - Connecting to database.
+2018-05-25 04:01:02 main       DEBUG module8.batch.FixRecords:37 - Connecting succeeded.
+2018-05-25 04:01:02 main       DEBUG module8.batch.FixRecords:56 - Executing batch.
+2018-05-25 04:01:02 main       ERROR module8.batch.FixRecords:71 - Query failed.
+java.sql.BatchUpdateException: Table 'test.Student' doesn't exist
+	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:2056)
+	at com.mysql.jdbc.PreparedStatement.executeBatch(PreparedStatement.java:1467)
+	at module8.batch.FixRecords.main(FixRecords.java:58)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'test.Student' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1054)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4190)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4122)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2570)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2731)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2818)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2157)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2460)
+	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:2008)
+	... 2 more
+2018-05-25 04:01:02 main       DEBUG module8.batch.FixRecords:73 - Batch processing failed.
+2018-05-25 04:02:03 main       DEBUG module8.batch.FixRecords:34 - Connecting to database.
+2018-05-25 04:02:03 main       DEBUG module8.batch.FixRecords:37 - Connecting succeeded.
+2018-05-25 04:02:03 main       DEBUG module8.batch.FixRecords:56 - Executing batch.
+2018-05-25 04:02:03 main       DEBUG module8.batch.FixRecords:60 - Inserted  2 record(s).
+2018-05-25 04:02:03 main       DEBUG module8.batch.FixRecords:63 - Commited transaction.
+2018-05-25 04:02:03 main       DEBUG module8.batch.FixRecords:73 - Connection closed.
+2018-05-25 04:14:44 main       DEBUG module8.batch.FixRecords:31 - Connecting to database.
+2018-05-25 04:14:44 main       DEBUG module8.batch.FixRecords:34 - Connecting succeeded.
+2018-05-25 04:14:44 main       DEBUG module8.batch.FixRecords:53 - Executing batch.
+2018-05-25 04:14:44 main       DEBUG module8.batch.FixRecords:57 - Inserted/updated  2 record(s).
+2018-05-25 04:14:44 main       DEBUG module8.batch.FixRecords:60 - Commited transaction.
+2018-05-25 04:14:44 main       DEBUG module8.batch.FixRecords:69 - Connection closed.
+2018-05-25 10:02:03 main       DEBUG module8.IsolationTypes.DbMetaDataDemo:31 - Connecting to database.
+2018-05-25 10:02:03 main       DEBUG module8.IsolationTypes.DbMetaDataDemo:34 - Connecting succeeded.
+2018-05-25 10:02:03 main       DEBUG module8.IsolationTypes.DbMetaDataDemo:39 - Database does not support ResultSet.TYPE_SCROLL_SENSITIVE & ResultSet.CONCUR_UPDATABLE
+2018-05-25 10:02:03 main       DEBUG module8.IsolationTypes.DbMetaDataDemo:42 - Database supports ResultSet.TYPE_SCROLL_INSENSITIVE
+2018-05-25 10:02:03 main       DEBUG module8.IsolationTypes.DbMetaDataDemo:46 - Database supports Connection.TRANSACTION_REPEATABLE_READ
+2018-05-25 10:02:03 main       DEBUG module8.IsolationTypes.DbMetaDataDemo:50 - Database supports Connection.TRANSACTION_SERIALIZABLE
+2018-05-25 10:02:03 main       DEBUG module8.IsolationTypes.DbMetaDataDemo:58 - Connection closed.
+2018-05-25 10:08:27 main       DEBUG module8.IsolationTypes.DbMetaDataDemo:30 - Connecting to database.
+2018-05-25 10:08:27 main       DEBUG module8.IsolationTypes.DbMetaDataDemo:33 - Connecting succeeded.
+2018-05-25 10:08:27 main       DEBUG module8.IsolationTypes.DbMetaDataDemo:38 - Database does not support ResultSet.TYPE_SCROLL_SENSITIVE & ResultSet.CONCUR_UPDATABLE
+2018-05-25 10:08:27 main       DEBUG module8.IsolationTypes.DbMetaDataDemo:42 - Database supports ResultSet.TYPE_SCROLL_INSENSITIVE
+2018-05-25 10:08:27 main       DEBUG module8.IsolationTypes.DbMetaDataDemo:46 - Database supports Connection.TRANSACTION_REPEATABLE_READ
+2018-05-25 10:08:27 main       DEBUG module8.IsolationTypes.DbMetaDataDemo:50 - Database supports Connection.TRANSACTION_SERIALIZABLE
+2018-05-25 10:08:27 main       DEBUG module8.IsolationTypes.DbMetaDataDemo:58 - Connection closed.
+2018-05-25 10:18:04 main       DEBUG module8.batch.FixRecords:31 - Connecting to database.
+2018-05-25 10:18:04 main       DEBUG module8.batch.FixRecords:34 - Connecting succeeded.
+2018-05-25 10:18:04 main       DEBUG module8.batch.FixRecords:54 - Executing batch.
+2018-05-25 10:18:04 main       DEBUG module8.batch.FixRecords:58 - Inserted/updated  2 record(s).
+2018-05-25 10:18:04 main       DEBUG module8.batch.FixRecords:61 - Commited transaction.
+2018-05-25 10:18:04 main       DEBUG module8.batch.FixRecords:70 - Connection closed.
