@@ -65,11 +65,15 @@
 
 * Topics - How It All Started – BSD Sockets, Networking Basics, Understanding java.net, Network Interfaces, Reliable Communication through TCP Sockets, Unicast through Datagram Sockets, Multicast through Multicast Sockets, URL Processing.
 
+### Module 10: Making Code Robust
+Learning Objectives - In this module you will learn how to handle memory leak, through Design Pattern we teach loose coupling and high cohesion in designing. 
+
+Topics - Managing Java Programme Memory, Unit Testing, Test Suite with JUNIT4, Basic “Gang of Four” Design Patterns – Abstract Factory, Factory Method, Observer, Strategy, Singleton, Adapter & State, Project Discussion.
 
 
 https://www.edureka.co/advanced-java-sp
 
-[Ak. MT. 25-05-2018](http://www.akmtir.com/)
+[Ak. MT. 27-05-2018](http://www.akmtir.com/)
 
 
 
