@@ -9,6 +9,7 @@
 * Module 7 : Concurrency, Multithreaded Java program, Synchronizing threads, Critical Section and protection with locks.
 * Module 8 : Working with Databases JDBC for DDL, DML and TCL, stored procedures, CRUD operations, Transaction Management, Batch Processing.
 * Module 9 : Networking TCP/IP server and client, UDP server and client, URL handling.
+* Module 10 : Making Code Robust (handling memory leak, Design Pattern, Unit Testing and Test Suite )
 
 
 
